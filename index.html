@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Anushree K C</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Anushree K C</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about " onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Anu's profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello! I'm</p>
+        <h1 class="title">Anushree!</h1>
+        <p class="section__text__p2">Computer Science Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume1.pdf')"
+          >
+            Download CV
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <h1>Education</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h3>University BDT College of Engineering</h3>
+            <p>Bachelor of Engineering<br />Computer Science<br />2020-2024</p>
+          </div>
+          <div class="details-container">
+            <h3>Sri Siddaganga PU science College</h3>
+            <p>Class 12 (PCMB)<br />2018-2020</p>
+          </div>
+          <div class="details-container">
+            <h3>Siddaganga CBSE School</h3>
+            <p>Class 10<br />2017-2018</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            <br />
+            I am a 21-year-old computer science student at BDT College of
+            Engineering, passionate about problem-solving and user experience.
+            <br />I am a perpetual learner, always eager to take on new
+            challenges. I find joy in using my skills to create innovative
+            solutions that improve the lives of others. I am also committed to
+            lifelong learning and am always looking for new ways to expand my
+            knowledge and grow as a professional.
+          </p>
+        </div>
+      </div>
+      <img
+        src="/assets/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+        alt=""
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <section class="secondSection">
+              <h1>Internships</h1>
+
+              <div class="box">
+                <div class="vertical">
+                  <img class="img-top" src="assets/DS.png" alt="ds" />
+                  <div class="vertical-text">1stop.ai</div>
+                  <div class="vertical-desc">
+                    <div class="random">(Jun-Sep,2023)</div>
+                    This is a virtual internship on
+                    <span class="purple">Data Science</span>Where it was a
+                    training + internship.we were trained about data science.And
+                    also created projects like Hate speech detector,SMS Spam
+                    Classifier and Credit EDA.
+                  </div>
+                </div>
+                <div class="vertical">
+                  <img class="img-top" src="assets/DA.png" alt="da" />
+                  <div class="vertical-text">TechnoHacksEduTech</div>
+                  <div class="vertical-desc">
+                    <div class="random">(July 2023)</div>
+                    This is a virtual internship on
+                    <span class="purple">Data Analytics</span>Where I have
+                    created some projects like Data visualization,Data
+                    Cleaning,Dashboard using power BI and Tableau
+                  </div>
+                </div>
+                <div class="vertical">
+                  <img class="img-top" src="assets/WD1.png" alt="wd1" />
+                  <div class="vertical-text">WebStack Academy</div>
+                  <div class="vertical-desc">
+                    <div class="random">(Aug-Current)</div>
+                    This is a virtual internship on
+                    <span class="purple">MERN Stack</span>Where they trained us
+                    how MERN works and the project(currently working)is a food
+                    delivery web application.
+                  </div>
+                </div>
+                <div class="vertical">
+                  <img class="img-top" src="assets/WD2.png" alt="wd" />
+                  <div class="vertical-text">Gauravgo Technologies</div>
+                  <div class="vertical-desc">
+                    <div class="random">(Sep-Current)</div>
+                    This is a virtual internship on
+                    <span class="purple">Web Development</span>and to create a
+                    portfolio and host that on the given platform by Gauravgo.
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        alt=""
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="assets/project-1.png"
+                alt="SciQuizhub"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">SciQuiz Hub</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/its-anushz/its-anushz.github.io';"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://its-anushz.github.io/';"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="assets/project-2.png"
+                alt="Dashboard"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Sales Analysis Dashboard
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/its-anushz/PowerBI_Dashboard';"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/its-anushz/PowerBI_Dashboard';"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                class="project-img"
+                src="assets/project-3.png"
+                alt="Hatespeechclassifier"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Hate Speech Detector
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/its-anushz/HateSpeech_Detection';"
+              >
+                GitHub
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/its-anushz/HateSpeech_Detection';"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/assets/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+        alt=""
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get In Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="assets/email.png"
+            class="icon contact-icon"
+            alt="Email icon"
+          />
+          <p><a href="mailto:itsanush11@gmail.com">itsanush11@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="assets/linkedin.png"
+            class="icon contact-icon"
+            alt="linkedin icon"
+          />
+          <p><a href="https://www.linkedin.com/in/anushreekc1/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Anushree K C. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
