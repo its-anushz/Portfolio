@@ -15,6 +15,10 @@ To view my portfolio website, simply clone this repository and open the index.ht
 ## Credits
 This project was created by Anushree K C.
 
+## Link to my Portfolio website
+
+https://its-anushz.github.io/Portfolio/
+
 
 
 
